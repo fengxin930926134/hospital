@@ -209,4 +209,4 @@ CREATE TABLE `user` (
 -- Records of user
 -- ----------------------------
 INSERT INTO `user` VALUES ('1', 'user', '$2a$10$016mx7TZ8x5tEZFLYGplV.FMTZedK0dpZaOYGawSniupSw51IGrxa', '成风', '1', '', '1998-01-31', null, 'ROLE_ADMIN,ROLE_DOCTOR,ROLE_TECHNICAL,ROLE_PHARMACIST,ROLE_USER,');
-INSERT INTO `user` VALUES ('2', 'admin', '$2a$10$a7v1t8ECBhpJq3aqztbRJ.Q3eOroSDcvqHfyoFyLIf7mg7Ln.1LCS', 'Admin', '1', '18785517851', '1998-01-31', '3', 'ROLE_USER,ROLE_ADMIN,ROLE_DOCTOR,ROLE_TECHNICAL,ROLE_PHARMACIST,');
+INSERT INTO `user` VALUES ('2', 'admin', '$2a$10$a7v1t8ECBhpJq3aqztbRJ.Q3eOroSDcvqHfyoFyLIf7mg7Ln.1LCS', 'Admin', '1', '', '1998-01-31', '3', 'ROLE_USER,ROLE_ADMIN,ROLE_DOCTOR,ROLE_TECHNICAL,ROLE_PHARMACIST,');
